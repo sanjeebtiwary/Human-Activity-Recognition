@@ -22,6 +22,14 @@ This project requires the following dependencies:
 
 You can install all dependencies by running `pip install -r requirements.txt`.
 
+Setup :
+- I have added a video example for testing in `test` directory
+- If you want to test your own video file be sure to add it in `test` folder
+- Now, inside `recognise_human_activity.py` constructor set instance variable `VIDEO_PATH` to you file path.
+- Otherwise, if you want test the model on using web-camera live video just set `self.VIDEO_PATH = None`
+- Once your setup is done run the following to execute code:
+- python recognise_human_activity.py
+
 ## Acknowledgments
 
 This project was inspired by the work done in [this blog post](https://pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/) by Adrian Rosebrock at PyImageSearch. The pre-trained model was trained by the authors of the Kinetics dataset, and can be found on their [GitHub repository](https://github.com/kenshohara/3D-ResNets-PyTorch).
