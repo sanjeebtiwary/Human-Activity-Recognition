@@ -1,7 +1,4 @@
 # Human-Activity-Recognition
-Sure, here's an example description you could use for a GitHub repository on Human-Activity-Recognition:
-
-# Human-Activity-Recognition
 
 This project uses computer vision techniques and deep learning to recognize human activities in real-time. The application captures video frames from a webcam, and using a pre-trained convolutional neural network model, it predicts the activity being performed. The model has been trained on the Kinetics dataset, which contains over 400 human action classes.
 
